@@ -1,6 +1,6 @@
 
-<div class="content-wrapper" style="min-height: 946px;border: 2px solid black;">
-    <section class="content-header" style="">
+<div class="content-wrapper" style="min-height: 946px; border-right: 1px solid black; border-left: 1px solid black;">
+    <section class="content-header">
         <h1>
              <i class="fa fa-user-plus"></i> <?php //echo 1;  //$this->lang->line('student_information'); ?>
 
@@ -40,7 +40,7 @@
                                     <!-- image -->
                                 </td>
                             </tr>
-                        </table> <hr style=" margin-top: 0px; margin-bottom: 0px; border: 1px solid black !important">
+                        </table> 
 
                         <table class="table">
                             <tr>
@@ -196,7 +196,7 @@
                                     </tr>
                             </table><br><br><br>
 
-                             <table class="table" style="border-top: 3px solid black">
+                             <table class="table">
                                  <tr>
                                     <td style="width: 100%">
                                         <h3  class="pagetitleh2">Miscellaneous Details</h3>
@@ -561,7 +561,7 @@ footer{
 </div>
     </section>
 </div>
-<div class="box-footer" style="border-bottom: 3px solid red; border-left: 3px solid red; border-right: 3px solid red;   padding-top: 182px">
+<div class="box-footer" style="border-left: 1px solid black; border-right: 1px solid black;   padding-top: 10px">
    
                              <!--    <button id="printPageButton" onClick="window.print();">Print</button> -->
                             </div>

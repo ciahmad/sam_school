@@ -20,6 +20,7 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
     <section class="content">
         <div class="row">
             <div class="col-md-12">
+                <?php //echo 1; die(); ?>
                 <div class="box box-primary">
                     <div class="box-header with-border">
                         <h3 class="box-title"><i class="fa fa-search"></i> <?php echo $this->lang->line('select_criteria'); ?></h3>

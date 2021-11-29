@@ -274,7 +274,9 @@ function findOption($questionOpt, $find) {
                         <div id="subjective_question_0">
                         <div class="col-sm-7">
                             <label for="question">Question</label>
-                            <textarea id="add_question" name="add_question[]"  class="form-control" rows="2"></textarea>
+                           <!--  <textarea id="add_question" name="add_question[]"  class="form-control" rows="2"></textarea> -->
+                           <textarea class="form-control ckeditor" id="add_question" name="add_question[]"></textarea>
+                        <span class="text text-danger question_error"></span>
                         </div>
                         <div class="col-sm-2">
                             <label for="question">add Marks</label>
@@ -599,7 +601,7 @@ function addMore(){
 
      count += 1;
 
-    html = '<div id="subjective_question_'+count+'"><div class="col-sm-7" id=""><label for="question">add Question</label><textarea id="add_question" name="add_question[]" class="form-control" rows="2"></textarea></div><div class="col-sm-2"><label for="question">add Marks</label><input type="text" name="question_marks[]" class="form-control"></div><div class="col-sm-2"><label for="question">Select image</label><input class="filestyle form-control" type="file" name="image[]"></div><div class="col-sm-1" style="margin-top: 20px;"><label for="question"></label><button type="button"  onClick="remove('+count+')"class="btn btn-danger btn-sm pull-right"  id="remove">Remove</button></div>';
+    html = '<div id="subjective_question_'+count+'"><div class="col-sm-7" id=""><label for="question">add Question</label><textarea id="add_question" name="add_question[]" class="form-control ckeditor" rows="2"></textarea></div><div class="col-sm-2"><label for="question">add Marks</label><input type="text" name="question_marks[]" class="form-control"></div><div class="col-sm-2"><label for="question">Select image</label><input class="filestyle form-control" type="file" name="image[]"></div><div class="col-sm-1" style="margin-top: 20px;"><label for="question"></label><button type="button"  onClick="remove('+count+')"class="btn btn-danger btn-sm pull-right"  id="remove">Remove</button></div>';
        
             $('#table_field').append(html);          
          }

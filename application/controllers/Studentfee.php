@@ -160,7 +160,7 @@ class Studentfee extends Admin_Controller {
                     $resultlist = $this->student_model->searchFullText($search_text);
                     $data['resultlist'] = $resultlist;
                 }
-                $this->load->view('layout/header', $data);
+                $this->load->view('layout/header', $data); 
                 $this->load->view('studentfee/studentfeeSearch', $data);
                 $this->load->view('layout/footer', $data);
             }

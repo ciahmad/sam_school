@@ -15,6 +15,7 @@
         display: none;
     }
 </style>
+
 <?php
 $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
 ?>
@@ -28,6 +29,7 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
         <div class="row">
             <div class="col-md-12">
                 <div class="box box-primary">
+                    <?php //echo 1; die(); ?>
                     <div class="box-header with-border">
                         <h3 class="box-title"><i class="fa fa-search"></i> <?php echo $this->lang->line('select_criteria'); ?></h3>
                     </div>
@@ -330,6 +332,8 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
         $('.cls').html(cls + '(' + sec + ')');
         Popup(jQuery(elem).html());
     }
+
+    
 
     function Popup(data)
     {

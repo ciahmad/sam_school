@@ -65,7 +65,7 @@
                                 </td>
                             </tr>
                             </table>
-                            <table class="table">
+                            <table class="table example">
                                 <thead>
                                     <tr>
                                         <?php //print_r($taff); die(); ?>
@@ -103,8 +103,6 @@
                                         <td><strong>Phone</strong></td> <td><?php echo $staff['contact_no']?></td>
                                         <td><strong>Emergency Contact Number</strong></td><td><?php echo $staff['emergency_contact_no']?></td>
                                         <td><strong>Email</strong></td><td><?php echo $staff['email']?></td>
-                                        
-                                       
                                     </tr>                                   
                                 </thead>
                                 <tbody>
@@ -145,7 +143,7 @@
                                        
                                     </tr>
                                 </thead>
-                            </table>
+                            </table><br><br><br><br><br>
 
                             <table class="table">
                                   
